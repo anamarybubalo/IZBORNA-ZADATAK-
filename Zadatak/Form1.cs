@@ -23,7 +23,7 @@ namespace WindowsFormsApp5
             listBox1.Items.Add("ARRAY ITEMS: 1, 2, 3, 4, 5"); 
             listBox1.Items.Add("========================");
             int listTotal = numberList.Sum();
-            //SD
+            
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
