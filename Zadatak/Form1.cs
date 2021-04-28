@@ -20,7 +20,9 @@ namespace WindowsFormsApp5
         private void button1_Click(object sender, EventArgs e)
         {
             int[] numberList = new int[5] { 1, 2, 3, 4, 5 };
-            listBox1.Items.Add("ARRAY ITEMS: 1, 2, 3, 4, 5"); listBox1.Items.Add("========================");
+            listBox1.Items.Add("ARRAY ITEMS: 1, 2, 3, 4, 5"); 
+            listBox1.Items.Add("========================");
+            int listTotal = numberList.Sum();
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
